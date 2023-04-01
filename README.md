@@ -1,5 +1,5 @@
 ![Tec de Monterrey](images/logotecmty.png)
-# Compilers Design (TC2038)
+# Analysis and Design of Advanced Algorithms (TC2038)
 ## Definition of a Logo dialect
 
 ```

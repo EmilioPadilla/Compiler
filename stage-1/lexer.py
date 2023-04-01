@@ -44,7 +44,7 @@ class Token:
 		elif self.__tag == Tag.VAR:
 			return "Token - value VAR"
 		else:
-			return "Token - value " + chr(self.__tag)
+			return "TOKEN - value " + chr(self.__tag)
 			
 class Number(Token):
 	__value = 0.0
@@ -163,7 +163,7 @@ class Lexer:
 				return Token(ord(':'))
 
 		if self.__peek  == '"':
-			val = ""
+			val = "\""
 			while True:
 				val = val + self.__peek
 				self.read()
